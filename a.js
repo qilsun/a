@@ -1,3 +1,3 @@
-function aa() {
-  alert("Hello! I am an alert box!");
-}
+$( "#target" ).click(function() {
+  alert( "Handler for .click() called." );
+});
