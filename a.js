@@ -7,7 +7,7 @@ var sourceIs = document.querySelector('#form > div:nth-child(2) > div:nth-child(
 
 
 if (sourceIs == "a") {
-        document.querySelector('#form > div:nth-child(2) > div:nth-child(3) > div > button').style.display = 'none';
+        document.querySelector('#form > div:nth-child(2) > div:nth-child(3)').style.display = 'none';
 		document.querySelector('#form > div:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div > div > div > select > option:nth-child(2)').disabled="disabled";
 
 } }
