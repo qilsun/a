@@ -1,3 +1,19 @@
+
+window.onload = function()
+{
+
+
+var sourceIs = document.querySelector('#form > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div > div > div > input[type=text]').value;
+
+
+if (sourceIs == "a") {
+        document.querySelector('#form > div:nth-child(2) > div:nth-child(3) > div > button').style.display = 'none';
+		document.querySelector('#form > div:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div > div > div > select > option:nth-child(2)').disabled="disabled";
+
+} }
+
+
+
 jQuery(document).ready( function() {
 	setTimeout(function() {
 		var website_array = jQuery('div[data-type="website"]');
@@ -36,18 +52,7 @@ var overrideRedirectIntervalId = setInterval(function(){
 		};
 	}
 }, 100);
-var sourceIs = document.querySelector('#form > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div > div > div > input[type=text]').value;
 
-
-if (sourceIs == "a") {
-                document.querySelector('#form > div:nth-child(2) > div:nth-child(3) > div > button').style.display = 'none';
-
-		document.querySelector('#form > div:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div > div > div > select > option:nth-child(2)').disabled="disabled";
-
-  }
-  
-  
-  
   
   
   
